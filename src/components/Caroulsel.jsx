@@ -6,13 +6,13 @@ import image5 from "../components/img/python.png";
 import image6 from "../components/img/node-js.png";
 function Carousel() {
   return (
-    <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
+    <div id="carouselExampleIndicators" className="carousel slide">
+      <div className="carousel-indicators">
         <button
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide-to="0"
-          class="active"
+          className="active"
           aria-current="true"
           aria-label="Slide 1"
         ></button>
@@ -47,57 +47,57 @@ function Carousel() {
           aria-label="Slide 6"
         ></button>
       </div>
-      <div id="cont-habi" class="carousel-inner">
-        <div id="habi1" class="carousel-item active">
+      <div id="cont-habi" className="carousel-inner">
+        <div id="habi1" className="carousel-item active">
           <p>JAVA SCRIPT</p>
-          <img src={image3} class="d-block w-100" alt="..." id="js" />
+          <img src={image3} className="d-block w-100" alt="..." id="js" />
         </div>
-        <div id="habi2" class="carousel-item">
+        <div id="habi2" className="carousel-item">
           <p>CSS</p>
-          <img src={image2} class="d-block w-100" alt="..." id="css" />
+          <img src={image2} className="d-block w-100" alt="..." id="css" />
         </div>
-        <div id="habi3" class="carousel-item">
+        <div id="habi3" className="carousel-item">
           <p>HTML</p>
-          <img src={image} class="d-block w-100" alt="..." id="html" />
+          <img src={image} className="d-block w-100" alt="..." id="html" />
         </div>
-        <div id="habi4" class="carousel-item">
+        <div id="habi4" className="carousel-item">
           <p>REACT</p>
-          <img src={image4} class="d-block w-100" alt="..." id="html" />
+          <img src={image4} className="d-block w-100" alt="..." id="html" />
         </div>
-        <div id="habi5" class="carousel-item">
+        <div id="habi5" className="carousel-item">
           <p>PHYTON</p>
-          <img src={image5} class="d-block w-100" alt="..." id="html" />
+          <img src={image5} className="d-block w-100" alt="..." id="html" />
         </div>
-        <div id="habi6" class="carousel-item">
+        <div id="habi6" className="carousel-item">
           <p>NODE JS</p>
-          <img src={image6} class="d-block w-100" alt="..." id="html" />
+          <img src={image6} className="d-block w-100" alt="..." id="html" />
         </div>
       </div>
       <button
-        class="carousel-control-prev text-light"
+        className="carousel-control-prev text-light"
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="prev"
       >
         <span
-          class="carousel-control-prev-icon"
+          className="carousel-control-prev-icon"
           aria-hidden="true"
           id="click"
         ></span>
-        <span class="visually-hidden">Previous</span>
+        <span className="visually-hidden">Previous</span>
       </button>
       <button
-        class="carousel-control-next"
+        className="carousel-control-next"
         type="button"
         data-bs-target="#carouselExampleIndicators"
         data-bs-slide="next"
       >
         <span
-          class="carousel-control-next-icon"
+          className="carousel-control-next-icon"
           aria-hidden="true"
           id="click2"
         ></span>
-        <span class="visually-hidden">Next</span>
+        <span className="visually-hidden">Next</span>
       </button>
     </div>
   );
